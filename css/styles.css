@@ -220,7 +220,6 @@ button {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter:focus,
@@ -228,6 +227,7 @@ button {
   color: #fff;
   background-color: var(--pressed-state);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .footer {
@@ -238,7 +238,7 @@ button {
 
 .hero {
   background-color: var(--dark-grey);
-  background-image: url(../images/people-office-dark.jpg);
+  background-image: url(../images/people-office.jpg), rgba(46, 47, 66, 0.7);
   background-repeat: no-repeat;
   background-position: center;
   padding: 188px 0;
@@ -413,4 +413,5 @@ button {
   margin-bottom: 48px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
