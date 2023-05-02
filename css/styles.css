@@ -69,8 +69,8 @@ button {
 
 .header-flex {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-items: auto;
 }
 
 .nav-list,
@@ -362,14 +362,10 @@ button {
   fill: currentColor;
 }
 
-.customer-icon:hover,
-.customer-icon:focus {
-  color: var(--pressed-state);
-}
-
 .customer-link:hover,
 .customer-link:focus {
   border: 1px solid var(--pressed-state);
+  color: var(--pressed-state);
 }
 
 .flex-container {
