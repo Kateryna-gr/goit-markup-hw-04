@@ -362,8 +362,8 @@ button {
   fill: currentColor;
 }
 
-.customer-link:hover .customer-icon,
-.customer-link:focus .customer-icon {
+.customer-icon:hover,
+.customer-icon:focus {
   color: var(--pressed-state);
 }
 
