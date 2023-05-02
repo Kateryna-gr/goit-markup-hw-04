@@ -176,7 +176,7 @@ button {
   color: var(--white);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
@@ -345,7 +345,7 @@ button {
   gap: 24px;
 }
 
-.customer-icon {
+.customer-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
