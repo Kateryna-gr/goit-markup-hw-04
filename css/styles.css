@@ -64,6 +64,7 @@ button {
   padding-top: 24px;
   padding-bottom: 22px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -171,11 +172,11 @@ button {
   margin-bottom: 8px;
 }
 
-.heading-four {
+.footer-par {
   color: var(--white);
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
@@ -238,10 +239,12 @@ button {
 
 .hero {
   background-color: var(--dark-grey);
-  background-image: url(../images/people-office.jpg), rgba(46, 47, 66, 0.7);
+  padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 188px 0;
+  background-size: cover;
 }
 
 .advant {
@@ -259,7 +262,7 @@ button {
 }
 
 .worker-wrapper {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .worker-name {
@@ -327,6 +330,7 @@ button {
 .features-item {
   width: 264px;
   height: 112px;
+  border-radius: 4px;
   margin-bottom: 8px;
   display: flex;
   justify-content: center;
@@ -341,20 +345,26 @@ button {
   gap: 24px;
 }
 
+.customer-icon {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
 .customer-link {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
+  color: var(--light-slate);
   background-color: var(--white);
   border: 1px solid var(--light-slate);
   border-radius: 4px;
 }
 
 .customer-icon {
-  fill: var(--light-slate);
+  fill: currentColor;
 }
 
 .customer-link:hover .customer-icon,
@@ -382,6 +392,11 @@ button {
 
 .footer-flex {
   display: flex;
+  align-items: baseline;
+}
+
+.container-footer {
+  margin-right: 120px;
 }
 
 .works-section {
@@ -406,6 +421,11 @@ button {
 
 .works-list-items {
   width: calc((100% - 48px) / 3);
+  display: block;
+}
+.works-list-items:hover,
+.works-list-items:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .works-card {
